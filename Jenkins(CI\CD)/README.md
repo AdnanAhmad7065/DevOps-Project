@@ -135,3 +135,26 @@ http://<ec2-instance-public-ip>:8080/restart
 ```
 
 The docker agent configuration is now successful.
+
+### ✅ Final Step: Run Your Jenkins Pipeline from GitHub
+Once all the setup is complete (Jenkins + Docker + Plugin), you can now run your first pipeline:
+
+Go to Jenkins Dashboard.
+
+Click on “New Item”.
+
+Enter a name for your pipeline (e.g., my-first-pipeline) and select “Pipeline”, then click OK.
+
+Scroll down to the Pipeline section.
+
+Choose Pipeline script from SCM.
+
+Select Git, and in the Repository URL, paste the link to your GitHub repository containing the Jenkinsfile.
+
+Specify the branch (e.g., main or master).
+
+Click Save.
+
+Now click “Build Now” to trigger your first Jenkins build from your GitHub repo!
+
+That’s it — you're all set! 🚀
